@@ -211,3 +211,11 @@ div[class*="_0d0f9ddd12a3ace3"] {
 .buttons__74017 > .button__74017.button__24af7 {
     display: none;
 }
+
+/* Remove MemberList Activity Section */
+.content_d125d2 > h3:first-of-type:has(>.headerContainer__095fe) {
+    display: none;
+}
+.content_d125d2:has(> h3 >.headerContainer__095fe) > div:has(div[role="button"]) {
+    display: none;
+}
