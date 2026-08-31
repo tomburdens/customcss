@@ -12,6 +12,12 @@
 /* Hide Nitro upsells */
 /* ------------------ */
 
+
+ /* Remove "Billing" Section */
+nav.nav__409aa ul.sublist__409aa li.section__409aa:has([data-settings-sidebar-item="nitro_panel"]) {
+    display: none;
+
+  
 /* Chatbox buttons */
 div[aria-label="Start an Activity"] { display: none; }
 button[aria-label="Send a gift"] { display: none; }
