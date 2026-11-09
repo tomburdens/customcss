@@ -1,23 +1,23 @@
 /* Image Activity Icon */
-.hoverButtonGroup__06ab4 {
+.hoverButtonGroup_n2rO26 {
     display: none
 }
 /* Change the first path definition of the volume icon SVG to be the moving part of my new animated SVG */
-.containerDefault_c69b6d:has([class*="voiceUser_"]) .iconContainer__2ea32 svg.icon__2ea32 path[d^="M15.16"] {
+.containerDefault_Wx6SnQ:has([class*="voiceUser_"]) .iconContainer_TNyK-N svg.icon_TNyK-N path[d^="M15.16"] {
     d: path("M15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z");
     animation-name: volume-icon-anim;
     animation-duration: 1.25s;
     animation-iteration-count: infinite;
 }
 /* Change the second path definition of the volume icon SVG to be the static part of my new animated SVG */
-.containerDefault_c69b6d:has([class*="voiceUser_"]) .iconContainer__2ea32 svg.icon__2ea32 path[d^="M12"] {
+.containerDefault_Wx6SnQ:has([class*="voiceUser_"]) .iconContainer_TNyK-N svg.icon_TNyK-N path[d^="M12"] {
     d: path("M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.16 16.51c-.57.28-1.16-.2-1.16-.83v-.14c0-.43.28-.8.63-1.02a3 3 0 0 0 0-5.04c-.35-.23-.63-.6-.63-1.02v-.14c0-.63.59-1.1 1.16-.83a5 5 0 0 1 0 9.02Z");
 }
 /* change color of animation to match Discord's "Live" icon when someone is live-streaming */
-.containerDefault_c69b6d:has([class*="live_"], [class*="baseShapeRound_"]) .iconContainer__2ea32 svg.icon__2ea32 path[d^="M15.16"] {
+.containerDefault_Wx6SnQ:has([class*="live_"], [class*="baseShapeRound_"]) .iconContainer_TNyK-N svg.icon_TNyK-N path[d^="M15.16"] {
     animation-name: volume-icon-anim-live;
 }
-.containerDefault_c69b6d:has([class*="live_"], [class*="baseShapeRound_"]) .iconContainer__2ea32 svg.icon__2ea32 path[d^="M12"] {
+.containerDefault_Wx6SnQ:has([class*="live_"], [class*="baseShapeRound_"]) .iconContainer_TNyK-N svg.icon_TNyK-N path[d^="M12"] {
     color: var(--red-400);
 }
 /* Animation when there is someone in a voice channel */
@@ -31,12 +31,12 @@
     50%  {color: var(--red-400);}
 }
 /* White Noti Lines */
-.item__58105{display:none}
+.item__o8_Xq{display:none}
 /* User Area Icon Recolor */
-.panels__5e434 .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
+.panels_pog62O .lottieIcon_69Onuk :not(defs *)[fill][fill-opacity] {
   fill: rgb(255, 255, 255);
 }
-.lottieIcon__5eb9b > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
+.lottieIcon_69Onuk > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
   stroke: rgb(255, 255, 255);
 }
 * Change voice activity indicator glow color */
@@ -44,7 +44,7 @@
     box-shadow: 0 0 0 2px #ffffff; /* Change #color to your desired border color */
 }
 /*Other People Speaking Icons Inside Voice Channel*/
-.border__2f4f7.speaking__2f4f7 {
+.border_7NOr2f.speaking__2f4f7 {
     box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, #ffffff), inset 0 0 0 3px var(--black-500);
 }
 /*Other People Speaking Icon In The List When Speaking*/
@@ -79,13 +79,13 @@ div[aria-label="User Profile Modal"] {
   }
 }
 /* Server Round */
-.wrapper_cc5dd2 {
-    .icon__6e9f8 {
+.wrapper_hqZPsU {
+    .icon_JJ-hgR {
         border-radius: 100px!important;
     }
 }
 /* Yapping Text */
-.typingDots_b88801>.ellipsis_b88801+.text_b88801 {
+.typingDots_U9Tvvz>.ellipsis_U9Tvvz+.text_U9Tvvz {
   font-size: 0;
   height: 16px;
   &>strong {
@@ -108,10 +108,10 @@ div[aria-label="User Profile Modal"] {
     content: "Several people are yapping...";
   }
 }
-    .icon_f34534.folderPreviewGuildIcon__48112 { border-radius: 50% !important 
+    .icon_qqAqr1.folderPreviewGuildIcon_RTMSuZ { border-radius: 50% !important 
 }
 /* Transparent Folders Left */
-.folderPreview__48112 {
+.folderPreview_RTMSuZ {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +125,7 @@ div[aria-label="User Profile Modal"] {
     scale: 10;
 }
 .expandedFolderIconWrapper__48112::after,
-.folderPreview__48112::after {
+.folderPreview_RTMSuZ::after {
     content: "";
     background-color: #ffffff;
     width: 24px;
@@ -133,23 +133,23 @@ div[aria-label="User Profile Modal"] {
     position: absolute;
     clip-path: path("M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z");
 }
-.folderPreview__48112 > .folderPreviewGuildIcon__48112 {
+.folderPreview_RTMSuZ > .folderPreviewGuildIcon_RTMSuZ {
     opacity: .4;
     filter: blur(2px);
 }
-.theme-dark .hiddenVisually_b18fe2[aria-expanded="false"] {
+.theme-dark .hiddenVisually_FX8kaC[aria-expanded="false"] {
     background-color: #000000;
 }
-.theme-light .hiddenVisually_b18fe2[aria-expanded="false"] {
+.theme-light .hiddenVisually_FX8kaC[aria-expanded="false"] {
     background-color: #747474;
 }
 /* change attachment button svg back (by @mateo_.123) */
-.attachButton__0923f path {
+.attachButton_7TM4SO path {
     d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z");
 }
 /* Hide Server Banner & Server Boost Progress */
- .animatedContainer_f37cb1,
-.content__99f8c [style="height: 84px;"]{
+ .animatedContainer_XH4OpX,
+.content_JFqgFB [style="height: 84px;"]{
     display: none
 }
 div[id="channels"] > ul[class^="content"] div:has(div[class^="progress"]) {
@@ -168,8 +168,8 @@ nav[class*="privateChannels" i] [aria-label="Nitro" i] {
 
 
 /* Hide Find or start a conversation */
-div[class^="searchBar_e6b769"] { display: none; }
-div[class^="sectionDivider_e6b769"] { display: none; }
+div[class^="searchBar_u88IQl"] { display: none; }
+div[class^="sectionDivider_u88IQl"] { display: none; }
 
 /* Hide Help and Apps Launcher Buttons */
 a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]),
@@ -208,19 +208,19 @@ div[class*="_0d0f9ddd12a3ace3"] {
 }
 
  /* Gift Button */
-.buttons__74017 > .button__74017.button__24af7 {
+.buttons_2x8-Qn > .button_2x8-Qn.button_hfM7yP {
     display: none;
 }
 
 /* Remove MemberList Activity Section */
-.content_d125d2 > h3:first-of-type:has(>.headerContainer__095fe) {
+.content_tqapBM > h3:first-of-type:has(>.headerContainer_HxSvbL) {
     display: none;
 }
-.content_d125d2:has(> h3 >.headerContainer__095fe) > div:has(div[role="button"]) {
+.content_tqapBM:has(> h3 >.headerContainer_HxSvbL) > div:has(div[role="button"]) {
     display: none;
 }
 
  /* Remove "Billing" Section */
-nav.nav__409aa ul.sublist__409aa li.section__409aa:has([data-settings-sidebar-item="nitro_panel"]) {
+nav.nav_cR4ic2 ul.sublist_cR4ic2 li.section_cR4ic2:has([data-settings-sidebar-item="nitro_panel"]) {
     display: none;
 }
