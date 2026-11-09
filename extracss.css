@@ -27,12 +27,12 @@ li button[aria-label="Shop"] {
 }
 
 /* Disable Join Server and Discovery Icon */
-.tutorialContainer__650eb, .tutorialContainer__650eb + .listItem__650eb {display: none;}
+.tutorialContainer_rwEpIL, .tutorialContainer_rwEpIL + .listItem_rwEpIL {display: none;}
 
 /*Support icon in toolbar*/
-.toolbar__9293f .anchor_edefb8[href="https://support.discord.com"],
+.toolbar_ybUK7Z .anchor_R6ReNl[href="https://support.discord.com"],
 /* Bell icon/notification settings*/
-.iconWrapper__9293f:has(path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"],
+.iconWrapper_ybUK7Z:has(path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"],
 /*Add friends to dm*/
 path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"],
 /*enable camera in dm*/
@@ -40,25 +40,25 @@ path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11a3"]){ display: none;
 }
 
 /* Remove Activty Button*/
-.buttonContainer__1405b {
+.buttonContainer_9bvEB0 {
   display: none;
 }
-.tutorialContainer__650eb,
-.tutorialContainer__650eb+div{display: none;
+.tutorialContainer_rwEpIL,
+.tutorialContainer_rwEpIL+div{display: none;
 }
 
 /* Remove Share Screen Left*/
-.actionButtons_e131a9 {
+.actionButtons_9U6LUN {
  display: none;
 }
 
 /* Top Left Arrows */
-.backForwardButtons__63abb  {
+.backForwardButtons_nS9Yqn  {
     display: none !important;
 }
 
 /* Hide Noise Suppression Icon In Call*/
-.button__67645:has(path[d^=" M0,-5 C0,-5 0,-5 0,-5 C0.5519999861717224"]){
+.button_Y-8oZW:has(path[d^=" M0,-5 C0,-5 0,-5 0,-5 C0.5519999861717224"]){
   display: none
 }
 
@@ -67,7 +67,7 @@ path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11a3"]){ display: none;
     transition: transform 0.6s ease;
     transform-style: preserve-3d; /* Enables 3D transformations */
 }
-[class^=reaction_]:not(:has(.burstGlow__23977)):hover .emoji {
+[class^=reaction_]:not(:has(.burstGlow_MmKct8)):hover .emoji {
     animation: flipAndScale 0.6s forwards;
 }
 @keyframes flipAndScale {
@@ -80,13 +80,13 @@ path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11a3"]){ display: none;
 }
 
 /* Call Icon Buttons */
-.wrapper__1405b button{
+.wrapper_9bvEB0 button{
     background-color: rgba(197, 197, 197, 0.685) !important; 
 }
-.wrapper__1405b div foreignObject  {
+.wrapper_9bvEB0 div foreignObject  {
     mask-image:none;
 }
-.wrapper__1405b .contextMenuNub_f1ceac{
+.wrapper_9bvEB0 .contextMenuNub_K9Xq13{
     display:none;
 }
 /*Shake animation hover to the text area when you don't have permission !*/
@@ -106,15 +106,15 @@ path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11a3"]){ display: none;
   animation: shake 0.5s ease-in-out;
 }
 /* Server shortcuts as Icons */
-.basicChannelRowLink__2ea32 .name__2ea32{
+.basicChannelRowLink_TNyK-N .name_TNyK-N{
   display: none;
 }
-li:not([class]):has(.basicChannelRowLink__2ea32),
-div:not([class]):has(.basicChannelRowLink__2ea32) {
+li:not([class]):has(.basicChannelRowLink_TNyK-N),
+div:not([class]):has(.basicChannelRowLink_TNyK-N) {
     width: min-content;
     display: inline-flex;
 }
-.basicChannelRowLink__2ea32 .icon__2ea32{
+.basicChannelRowLink_TNyK-N .icon_TNyK-N{
   margin-left: 0px;
   margin-top: 0px;
   scale: 1;
@@ -161,13 +161,13 @@ div:not([class]):has(.basicChannelRowLink__2ea32) {
     background-color: var(--info-danger-background) !important;
 }
 /* Centered Voice Controls */
-.bottomControls_bfe55a > .flex__7c0ba:is(:first-child, :last-child) {
+.bottomControls_rTsZa_ > .flex_hkRWAH:is(:first-child, :last-child) {
   flex: 1 1 50% !important;
 }
-.bottomControls_bfe55a > .flex__7c0ba:nth-child(2) {
+.bottomControls_rTsZa_ > .flex_hkRWAH:nth-child(2) {
   flex: 0 1 auto !important;
 }
 
 /* Don't show Chat Apps   */
-.visual-refresh .channelAppLauncher_e6e74f, .trailing_c38106 [href="https://support.discord.com"]{display: none;
+.visual-refresh .channelAppLauncher_e6e74f, .trailing_3zSH5d [href="https://support.discord.com"]{display: none;
 }
