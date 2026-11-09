@@ -69,7 +69,7 @@ div[class^="container"]:has(div[class^="children"] > div[class^="soundboardRow"]
 div[class^="selectionGroup"]:has(div[role="radiogroup"] > div > div[class^="presets"] > [class*="appIconSelectionContainer"]) { display: none; }
 
 /* Appearance: Theme upsells */
-section[class*="basicThemeSelectors_"] + section { display: none; }
+section[class*="basicThemeSelectors_c936d7"] + section { display: none; }
 
 /* Hide message size upsells */
 div[class^="characterCount"] > div[class*=" upsell_"] { display: none; }
